@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: flask-container
-        image: sapana30/phpdemo:1
+        image: sapana30/flask-mongo-app:latest
         resources:
           requests:
             cpu: "200m"        
